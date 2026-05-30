@@ -1,0 +1,82 @@
+# Adidas Sales Analysis using SQL
+
+## Project Overview
+This project analyzes Adidas sales data using SQL to uncover insights into sales performance, retailer contributions, product trends, regional performance, and profitability.
+
+The goal is to transform raw sales data into actionable business insights that can support strategic decision-making and improve overall sales performance.
+
+## Objectives
+- Analyze overall sales performance
+- Identify top-performing retailers
+- Evaluate product performance
+- Compare sales across regions
+- Measure profitability and operating margins
+- Discover sales trends and patterns
+
+## Dataset
+The dataset contains sales transaction data with the following fields:
+
+- Retailer
+- Retailer ID
+- Invoice Date
+- Region
+- State
+- City
+- Product
+- Price per Unit
+- Units Sold
+- Total Sales
+- Operating Profit
+- Operating Margin
+- Sales Method
+
+## Business Questions
+### Retailer Analysis
+1. What are the top 5 retailers based on total sales?
+2. How does revenue contribution vary among retailers?
+3. Which retailer has the highest operating profit margin?
+4. How does retailer performance differ across regions?
+5. Which sales methods are most effective for each retailer?
+
+### Product Analysis
+- Which products generate the highest sales?
+- Which products are most profitable?
+- How do product preferences vary by region?
+
+### Regional Analysis
+- Which regions generate the highest revenue?
+- Which regions show growth opportunities?
+- How do customer preferences differ across regions?
+
+## Tools Used
+- SQL
+- MicrosoftSQL /SQL Server 
+- GitHub
+
+## Key SQL Techniques
+- Aggregate Functions
+- GROUP BY
+- ORDER BY
+- CASE Statements
+- Common Table Expressions (CTEs)
+- Window Functions
+- Joins
+- Date Functions
+
+## Project Structure
+```
+Adidas-Sales-Analysis/
+│
+├── Dataset/
+├── SQL Queries/
+├── README.md
+└── Results/
+```
+
+## Key Insights
+ West Gear recorded the highest revenue, totaling $242,944,333.
+ Walmart generated the lowest revenue at $74,558,410.
+ Foot Locker achieved the strongest operating profit margin among all retailers. 
+
+## Author
+Franklin Chimezie
